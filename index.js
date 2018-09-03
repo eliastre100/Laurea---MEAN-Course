@@ -2,7 +2,7 @@ let http = require('http');
 
 let server = http.createServer((request, response) => {
     response.writeHead(200, { "Content-Type": "text/plain" });
-    response.end("Hello World! This is my first Node.js server");
+    response.end("Hello world! My name is antoine, and this is my first Node.js server");
 });
 
 let port = process.env.PORT || 3000;
