@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+    h1 France's best bands
+    .row
+        each band in bands
+            .col.s4
+                h3= band.name
+                iframe(src='https://open.spotify.com/embed/' + band.playlist width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media')
