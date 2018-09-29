@@ -6,7 +6,8 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
     // link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
-  body
+  // Need the margin to avoid the footer to overlaps the content
+  body(style="margin-bottom: 60px")
     nav(class="navbar navbar-expand-lg navbar-light bg-light")
       .container
         a(class="navbar-brand", href="#")
@@ -28,7 +29,7 @@ html
       br
       .container
         block content
-    footer(class="footer bg-secondary text-black", style="height: 60px; width: 100%; line-height: 60px; position: absolute; bottom: 0")
+    footer(class="footer bg-secondary text-black fixed-bottom", style="height: 60px; line-height: 60px")
       .container
         span Bass guitar is the engine of the band. &nbsp;
           a(href="https://www.brainyquote.com/quotes/suzi_quatro_676050?src=t_bass", target="_blank") Suzi Quatro
