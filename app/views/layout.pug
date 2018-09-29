@@ -2,18 +2,38 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css')
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    // link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm', crossorigin='anonymous')
   body
-    ul
-      li
-        a(href="/") Home
-      li
-        a(href="/france") France
-      li
-        a(href="/finland") Finland
-      li
-        a(href="/germany") Germany
-    .container
-      block content
+    nav(class="navbar navbar-expand-lg navbar-light bg-light")
+      .container
+        a(class="navbar-brand", href="#")
+          img(src="/images/logo.jpg", width="30", height="30", class="d-inline-block align-top" alt="logo")
+          span &nbsp;Bands's corner
+        button(class="navbar-toggler", type="button", data-toggle="collapse", data-target="#navbarNav", aria-controls="navbarNav", aria-expanded="false", aria-label="Toggle navigation")
+          span(class="navbar-toggler-icon")
+        div(class="collapse navbar-collapse", id="navbarNav")
+          ul(class="navbar-nav")
+            li(class="nav-item " + (title === "Band's corner" ? "active" : undefined))
+              a(class="nav-link", href="/") Home
+            li(class="nav-item" + (title === "Band's corner - France" ? " active" : undefined))
+              a(class="nav-link", href="/france") France
+            li(class="nav-item" + (title === "Band's corner - Finland" ? " active" : undefined))
+              a(class="nav-link", href="/finland") Finland
+            li(class="nav-item" + (title === "Band's corner - Germany" ? " active" : undefined))
+              a(class="nav-link", href="/Germany") Germany
+    container
+      br
+      .container
+        block content
+    footer(class="footer bg-secondary text-black", style="height: 60px; width: 100%; line-height: 60px; position: absolute; bottom: 0")
+      .container
+        span Bass guitar is the engine of the band. &nbsp;
+          a(href="https://www.brainyquote.com/quotes/suzi_quatro_676050?src=t_bass", target="_blank") Suzi Quatro
+
+  script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js", integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN", crossorigin="anonymous")
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js", integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q", crossorigin="anonymous")
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", crossorigin="anonymous")
 
