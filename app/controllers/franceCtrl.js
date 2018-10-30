@@ -1,4 +1,4 @@
-const Bands = require('../models/Bands');
+const Bands = require('../../app_api/models/Bands');
 
 const index = (req, res, next) => {
     res.render('france/index', {
