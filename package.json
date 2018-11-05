@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "engines": {
-    "node": "~8.11.1",
+    "node": ">=8.11.1",
     "npm": "~5.6.0"
   },
   "dependencies": {
@@ -16,6 +16,8 @@
     "http-errors": "~1.6.2",
     "mongoose": "^5.3.0",
     "morgan": "~1.9.0",
-    "pug": "2.0.0-beta11"
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   }
 }
