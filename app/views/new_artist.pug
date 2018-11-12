@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    form(action="", method="post")
+        .form-group
+            input(type="text", name="name", placeholder="Name", class="form-control")
+        .form-group
+            input(type="text", name="playlist", placeholder="Spotify playlist code", class="form-control")
+        .form-group
+             select(name="country", class="form-control")
+                option(value="France") France
+                option(value="Finland") Finland
+                option(value="Germany") Germany
+        input(type="submit", class="btn btn-success")
