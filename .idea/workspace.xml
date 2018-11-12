@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0af14306-719b-499d-8351-03017cd8ee66" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/artistCtrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/new_artist.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layout.pug" afterDir="false" />
-    </list>
+    <list default="true" id="0af14306-719b-499d-8351-03017cd8ee66" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +74,7 @@
           <entry key="js" value="2361" />
           <entry key="json" value="2" />
           <entry key="pug" value="553" />
-          <entry key="txt" value="52" />
+          <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -89,7 +82,7 @@
           <entry key="JSON" value="2" />
           <entry key="Jade" value="553" />
           <entry key="JavaScript" value="2361" />
-          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="PLAIN_TEXT" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -360,7 +353,7 @@
       <workItem from="1541073629152" duration="919000" />
       <workItem from="1541413841691" duration="4728000" />
       <workItem from="1541443770131" duration="16000" />
-      <workItem from="1542019634025" duration="2056000" />
+      <workItem from="1542019634025" duration="2404000" />
     </task>
     <task id="LOCAL-00001" summary="[~] Changed data acquisition from the front side">
       <created>1541417712049</created>
@@ -369,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541417712049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[+] Adding possibility to add new entries">
+      <created>1542021849569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542021849569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16032000" />
+    <option name="totallyTimeSpent" value="16380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -418,7 +418,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[~] Changed data acquisition from the front side" />
-    <option name="LAST_COMMIT_MESSAGE" value="[~] Changed data acquisition from the front side" />
+    <MESSAGE value="[+] Adding possibility to add new entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="[+] Adding possibility to add new entries" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/finland/index.pug">
