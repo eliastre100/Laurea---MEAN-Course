@@ -2,10 +2,16 @@ extends ../layout
 
 block content
     h1 All bands
+        a(href="/artist/new", class="float-right btn btn-success") New
+        .float-none
     .row
         each band in bands
             .col-sm
+                div &nbsp;
                 h3= band.name
+                div
                   a(href="/artist/" + band._id, class="btn btn-warning") Edit
+                  span &nbsp;
                   a(href="/artist/" + band._id + "/delete", class="btn btn-danger") Delete
+                div &nbsp;
                 iframe(src='https://open.spotify.com/embed/' + band.playlist width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media')
