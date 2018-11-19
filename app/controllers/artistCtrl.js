@@ -14,7 +14,8 @@ const create = async (req, res, next) => {
     };
 
     try {
-        let response = await request({ url: apiUrl.url + '/api/bands', method: 'POST', json: data, qs: {} });
+        // If code is not 2XX an error is raised and as we use a REST api, a 2XX response on a post request is always 201
+        await request({ url: apiUrl.url + '/api/bands', method: 'POST', json: data, qs: {} });
         res.redirect('/');
     } catch (e) {
         res.render('error', { message: 'Error accessing API: ' + e.statusMessage + '(' + e.statusCode + ')', error: {status: e.statusCode }})

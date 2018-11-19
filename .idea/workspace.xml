@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0af14306-719b-499d-8351-03017cd8ee66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/artistCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/artistCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/controllers/bandsCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/bandsCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/routes/indexApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/indexApi.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,33 +66,34 @@
     <session id="1151846236">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2375" />
-          <entry key="json" value="26" />
+          <entry key="js" value="3057" />
+          <entry key="json" value="29" />
           <entry key="pug" value="553" />
-          <entry key="txt" value="241" />
+          <entry key="txt" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="26" />
+          <entry key="JSON" value="29" />
           <entry key="Jade" value="553" />
-          <entry key="JavaScript" value="2375" />
-          <entry key="PLAIN_TEXT" value="241" />
+          <entry key="JavaScript" value="3057" />
+          <entry key="PLAIN_TEXT" value="303" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="13" />
+          <entry key="js" value="15" />
           <entry key="json" value="2" />
           <entry key="pug" value="4" />
         </counts>
@@ -99,31 +102,13 @@
         <counts>
           <entry key="JSON" value="2" />
           <entry key="Jade" value="4" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,8 +148,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/artistCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="47" selection-start-column="47" selection-end-column="47" />
+            <state relative-caret-position="368">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_api/controllers/bandsCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -213,8 +216,6 @@
         <option value="$PROJECT_DIR$/app/models/db.js" />
         <option value="$PROJECT_DIR$/app_api/models/AppSchemas.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app_api/routes/indexApi.js" />
-        <option value="$PROJECT_DIR$/app_api/controllers/bandsCtrl.js" />
         <option value="$PROJECT_DIR$/app/constants/apiUrl.js" />
         <option value="$PROJECT_DIR$/app_api/models/db.js" />
         <option value="$PROJECT_DIR$/app/helpers/dataHelper.js" />
@@ -222,11 +223,13 @@
         <option value="$PROJECT_DIR$/app/routes/index.js" />
         <option value="$PROJECT_DIR$/app/views/layout.pug" />
         <option value="$PROJECT_DIR$/app/views/index.pug" />
-        <option value="$PROJECT_DIR$/app/controllers/artistCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/finlandCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/franceCtrl.js" />
         <option value="$PROJECT_DIR$/app/controllers/germanyCtrl.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/controllers/artistCtrl.js" />
+        <option value="$PROJECT_DIR$/app_api/routes/indexApi.js" />
+        <option value="$PROJECT_DIR$/app_api/controllers/bandsCtrl.js" />
       </list>
     </option>
   </component>
@@ -255,6 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,42 +269,24 @@
             <path>
               <item name="Laurea---MEAN-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laurea---MEAN-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Laurea---MEAN-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laurea---MEAN-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Laurea---MEAN-Course" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laurea---MEAN-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="app_api" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Laurea---MEAN-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Laurea---MEAN-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Laurea---MEAN-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Laurea---MEAN-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="app_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Laurea---MEAN-Course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Laurea---MEAN-Course" type="462c0819:PsiDirectoryNode" />
-              <item name="app_api" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -350,7 +336,9 @@
       <workItem from="1541073629152" duration="919000" />
       <workItem from="1541413841691" duration="4728000" />
       <workItem from="1541443770131" duration="16000" />
-      <workItem from="1542019634025" duration="5662000" />
+      <workItem from="1542019634025" duration="6281000" />
+      <workItem from="1542114108450" duration="351000" />
+      <workItem from="1542626498108" duration="1507000" />
     </task>
     <task id="LOCAL-00001" summary="[~] Changed data acquisition from the front side">
       <created>1541417712049</created>
@@ -408,11 +396,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542025356811</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[-] removed har-validator dependency">
+      <created>1542025606020</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542025606020</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[~] downgrade request">
+      <created>1542025699381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542025699381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19638000" />
+    <option name="totallyTimeSpent" value="22115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -434,8 +436,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32930845" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -489,7 +491,9 @@
     <MESSAGE value="[~] Updated package.json" />
     <MESSAGE value="[~] Downgraded node version" />
     <MESSAGE value="[-] removed npm definition in package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="[-] removed npm definition in package.json" />
+    <MESSAGE value="[-] removed har-validator dependency" />
+    <MESSAGE value="[~] downgrade request" />
+    <option name="LAST_COMMIT_MESSAGE" value="[~] downgrade request" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/finland/index.pug">
@@ -503,13 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -563,24 +560,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/controllers/bandsCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        <state relative-caret-position="253">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/new_artist.pug">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="414">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -591,14 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/artistCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/germanyCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="47" selection-start-column="47" selection-end-column="47" />
@@ -609,6 +592,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/new_artist.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -626,17 +623,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/germanyCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/artistCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        <state relative-caret-position="368">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="299">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/controllers/bandsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>

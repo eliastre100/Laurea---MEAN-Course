@@ -8,4 +8,9 @@ router
     .get(BandsCtrl.index)
     .post(BandsCtrl.add);
 
+router
+    .route('/bands/:id')
+    .patch(BandsCtrl.update)
+    .delete(BandsCtrl.destroy);
+
 module.exports = router;

@@ -14,7 +14,23 @@ const add = async (req, res, next) => {
         .json(await Bands.create(req.body))
 };
 
+const update = async (req, res, next) => {
+    let band = await Bands.findById(req.params.id);
+    band = Object.assign(band, req.body);
+    band.save();
+    res.status(200).json(band);
+};
+
+const destroy = async (req, res, next) => {
+    let band = await Bands.findById(req.params.id);
+    band = Object.assign(band, req.body);
+    band.remove();
+    res.status(204).json();
+};
+
 module.exports = {
     index,
-    add
+    add,
+    update,
+    destroy
 };
