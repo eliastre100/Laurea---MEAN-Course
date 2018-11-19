@@ -23,4 +23,6 @@ router
     .get(ArtistCtrl.edit)
     .post(ArtistCtrl.update);
 
+router.get('/artist/:id/delete', ArtistCtrl.destroy);
+
 module.exports = router;

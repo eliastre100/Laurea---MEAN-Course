@@ -59,10 +59,20 @@ const create = async (req, res, next) => {
     }
 };
 
+const destroy = async (req, res, next) => {
+    try {
+        await request({ url: apiUrl.url + '/api/bands/' + req.params.id, method: 'DELETE', json: {}, qs: {} });
+        res.redirect('/artists');
+    } catch (e) {
+        res.render('error', { message: 'Error accessing API: ' + e.statusMessage + '(' + e.statusCode + ')', error: {status: e.statusCode }})
+    }
+};
+
 module.exports = {
     index,
     edit,
     add,
     create,
-    update
+    update,
+    destroy
 };
