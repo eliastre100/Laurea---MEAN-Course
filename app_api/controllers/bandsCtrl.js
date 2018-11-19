@@ -8,6 +8,12 @@ const index = async (req, res, next) => {
         .json(await Bands.find({}))
 };
 
+const get = async (req, res, next) => {
+    res
+        .status(200)
+        .json(await Bands.findById(req.params.id));
+};
+
 const add = async (req, res, next) => {
     res
         .status(201)
@@ -30,6 +36,7 @@ const destroy = async (req, res, next) => {
 
 module.exports = {
     index,
+    get,
     add,
     update,
     destroy

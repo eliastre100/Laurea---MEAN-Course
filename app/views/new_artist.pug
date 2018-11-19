@@ -3,12 +3,12 @@ extends layout
 block content
     form(action="", method="post")
         .form-group
-            input(type="text", name="name", placeholder="Name", class="form-control")
+            input(type="text", name="name", placeholder="Name", class="form-control", value=artist.name)
         .form-group
-            input(type="text", name="playlist", placeholder="Spotify playlist code", class="form-control")
+            input(type="text", name="playlist", placeholder="Spotify playlist code", class="form-control", value=artist.playlist)
         .form-group
              select(name="country", class="form-control")
-                option(value="France") France
-                option(value="Finland") Finland
-                option(value="Germany") Germany
+                option(value="France", selected= artist.country === 'France') France
+                option(value="Finland", selected= artist.country === 'Finland') Finland
+                option(value="Germany", selected= artist.country === 'Germany') Germany
         input(type="submit", class="btn btn-success")

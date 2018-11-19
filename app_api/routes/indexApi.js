@@ -10,6 +10,7 @@ router
 
 router
     .route('/bands/:id')
+    .get(BandsCtrl.get)
     .patch(BandsCtrl.update)
     .delete(BandsCtrl.destroy);
 
